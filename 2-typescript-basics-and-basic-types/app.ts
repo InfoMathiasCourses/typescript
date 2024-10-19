@@ -1,12 +1,19 @@
-function add(n1: number, n2: number) {
-  //if (typeof n1 !== "number" || typeof n2 !== "number") {
-  //  throw new Error("Incorrect input!");
-  //}
-  return n1 + n2;
+// unknown: similar to any type but more restrictive ( can't assign unknown type to other types directly)
+// never: never returns anything whereas void returns undefined if console logged
+
+let userInput: unknown;
+let userName: string;
+
+userInput = 5;
+userInput = "Max";
+
+if (typeof userInput === "string") {
+  userName = userInput;
 }
 
-const number1 = 5;
-const number2 = 2.8;
+function generateError(message: string, code: number): never {
+  throw { message: message, errorCode: code };
+}
 
-const result = add(number1, number2);
+const result = generateError("An error occurred!", 500);
 console.log(result);
