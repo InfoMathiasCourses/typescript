@@ -1,3 +1,3 @@
-Link to the course: https://www.udemy.com/course/understanding-typescript/
+Link to the course: https://www.udemy.com/course/nestjs-the-complete-developers-guide/
 
-![image](https://github.com/user-attachments/assets/7501d35d-70ce-4ca3-b963-11b165f697d3)
+![certif_nest](https://github.com/user-attachments/assets/a819c29a-980c-43ee-9554-914ed719a93a)
